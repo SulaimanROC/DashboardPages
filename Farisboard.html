@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Chart JS</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link rel="stylesheet" href="./css/farisboard.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body class="bg-light">
+
+  <nav class="navbar bg-danger bg-gradient">
+    <div class="container-fluid">
+      <a href="/index.html" class="text-decoration-none">
+        <h3 class="text-light">
+          Fasuda
+        </h3>
+      </a>
+      <div class="navbar nav mx-5 ">
+        <a href="/account.html" class="nav-item nav-link active text-light">Account</a>
+        <a href="/chatbot.html" class="nav-item nav-link text-light">Chatbot</a>
+        <a href="/logout.html" class="nav-item nav-link text-light">Log Out</a>
+      </div>
+    </div>
+  </nav>
+
+  <nav id="navbar-animation" class="navbar bg-success bg-gradient">
+    <div class="container-fluid">
+      <a href="/index.html" class="text-decoration-none">
+        <h3 class="text-light">
+          Fasuda
+        </h3>
+      </a>
+      <div class="navbar nav mx-5 ">
+        <a href="/account.html" class="nav-item nav-link active text-light">Account</a>
+        <a href="/chatbot.html" class="nav-item nav-link text-light">Chatbot</a>
+        <a href="/logout.html" class="nav-item nav-link text-light">Log Out</a>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="text-center p-4">Crypto</h1>
+  <div class="crypto-chart">
+    <canvas id="chart-1"></canvas>
+  </div>
+<p class="text-center scroll-Notify"><i class="bi bi-arrow-bar-down"></i> Scroll down to see details <i class="bi bi-arrow-bar-down"></i></p>
+  <div id="crypto-sub-page">
+    <div class="leaderboard-container">
+      <br><br><br><br><br><br><br><br><br><br>
+      <table id="table-animation" class="leaderboard text-white">
+
+      </table>
+    </div>
+  </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+
+  <script src="js/farisboard.js"></script>
+</body>
+
+</html>

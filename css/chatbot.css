@@ -1,0 +1,76 @@
+.page-title {
+    text-align: center;
+}
+
+body {
+    background-color: darkred;
+}
+
+a {
+    text-decoration: none;
+}
+
+.chatBotInput {
+    position: fixed;
+    bottom: 20px;
+    left: 26%;
+    width: 50%;
+    height: 80px;
+    font-size: 12pt;
+    text-align: center;
+    z-index: 2;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 80%;
+}
+
+.user-bubble {
+    clear: both;
+    float: right;
+    width: 300px;
+    height: 100px;
+    text-align: center;
+    margin: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 80%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.bot-bubble {
+    clear: both;
+    float: left;
+    width: 300px;
+    min-height: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 80%;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.wrapper {
+    width: 600px;
+    margin: auto;
+    margin-top: 50px;
+    position: relative;
+    z-index: 1;
+    overflow-y: scroll;
+    max-height: 600px;
+}
+
+.chatbot-title {
+    margin-top: 15px;
+}
+
+.chatbot-sub-title {
+    margin-bottom: 15px;
+}
